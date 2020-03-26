@@ -1,11 +1,12 @@
 # ADHDiagnosis
 
+### Contributors: Colin Zhou, Olivia Li, James Jung
+Realtime Updates: https://docs.google.com/document/d/1u2jr2v2M907HgyJI2uMrersH7KRtNyl2Lqvv1zZ9o2U/edit
+
 Some cautionary notes:
-- Instead of PErsonal meeting bundle identifiers, we should set up a team one to avoid conflict with Firebase configurations
+- Instead of Personal meeting bundle identifiers, we should set up a team one to avoid conflict with Firebase configurations
 
 TODO:
-- Need to figure out if ARKit2 is different frmo ARKit1 in that they dont' rely too heavily on eyelids and if it's more accurate (currently, ARKit1 is a bit jank in terms of accuracy)
-- set up firebase and ARKit 
-- Web scraping GCP Virtual instance for university health resources online
-- looking into googlemaps API and setting up nearby health centers for ADHD 
-- Implement our distance tracking algorithm for eye movement tracking
+- Research ARKit on how it works to check if we can integrate w pygaze
+- maybe even check if we can improve ARKit
+- Work around Pygaze, see if viable option for our eye tracker
