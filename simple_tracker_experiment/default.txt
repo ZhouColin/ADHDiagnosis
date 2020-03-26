@@ -1,0 +1,2 @@
+trialnr	trialtype	endpos	latency	correct
+1	right	(867, 723)	6.97314453125	0
